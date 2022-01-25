@@ -1,0 +1,368 @@
+SfePy:
+  lib_path: 'full path of the python code root directory on linux'
+  lib_path_windows: 'full path of the python code root directory on windows'
+  electrodes:
+    conductivity: 1.4
+    10-20:
+      Fp1:
+        id: 10
+      Fp2:
+        id: 11
+      F7:
+        id: 12
+      F3:
+        id: 13
+      Fz:
+        id: 14
+      F4:
+        id: 15
+      F8:
+        id: 16
+      T7:
+        id: 17
+      C3:
+        id: 18
+      Cz:
+        id: 19
+      C4:
+        id: 20
+      T8:
+        id: 21
+      P7:
+        id: 22
+      P3:
+        id: 23
+      Pz:
+        id: 24
+      P4:
+        id: 25
+      P8:
+        id: 26
+      O1:
+        id: 27
+      O2:
+        id: 28
+    10-10:
+      Nz:
+        id: 10
+      N1:
+        id: 11
+      Fp1:    
+        id: 12
+      Fpz:    
+        id: 13
+      Fp2:    
+        id: 14
+      N2:     
+        id: 15
+      AF9:    
+        id: 16
+      AF7:    
+        id: 17
+      AF3:    
+        id: 18
+      AFz:    
+        id: 19
+      AF4:    
+        id: 20
+      AF8:    
+        id: 21
+      AF10:   
+        id: 22
+      F9:     
+        id: 23
+      F7:     
+        id: 24
+      F5:     
+        id: 25
+      F3:     
+        id: 26
+      F1:     
+        id: 27
+      Fz:     
+        id: 28
+      F2:     
+        id: 29
+      F4:     
+        id: 30
+      F6:     
+        id: 31
+      F8:     
+        id: 32
+      F10:    
+        id: 33
+      FT9:    
+        id: 34
+      FT7:    
+        id: 35
+      FC5:    
+        id: 36
+      FC3:    
+        id: 37
+      FC1:    
+        id: 38
+      FCz:    
+        id: 39
+      FC2:    
+        id: 40
+      FC4:    
+        id: 41
+      FC6:    
+        id: 42
+      FT8:    
+        id: 43
+      FT10:   
+        id: 44
+      T9(M1): 
+        id: 45
+      T7:     
+        id: 46
+      C5:     
+        id: 47
+      C3:     
+        id: 48
+      C1:     
+        id: 49
+      Cz:     
+        id: 50
+      C2:     
+        id: 51
+      C4:     
+        id: 52
+      C6:     
+        id: 53
+      T8:     
+        id: 54
+      T10(M2):
+        id: 55
+      TP9:    
+        id: 56
+      TP7:    
+        id: 57
+      CP5:    
+        id: 58
+      CP3:    
+        id: 59
+      CP1:    
+        id: 60
+      CPz:    
+        id: 61
+      CP2:    
+        id: 62
+      CP4:    
+        id: 63
+      CP6:    
+        id: 64
+      TP8:    
+        id: 65
+      TP10:   
+        id: 66
+      P9:     
+        id: 67
+      P7:     
+        id: 68
+      P5:     
+        id: 69
+      P3:     
+        id: 70
+      P1:     
+        id: 71
+      Pz:     
+        id: 72
+      P2:     
+        id: 73
+      P4:     
+        id: 74
+      P6:     
+        id: 75
+      P8:     
+        id: 76
+      P10:    
+        id: 77
+      PO9:    
+        id: 78
+      PO7:    
+        id: 79
+      PO3:    
+        id: 80
+      POz:    
+        id: 81
+      PO4:    
+        id: 82
+      PO8:    
+        id: 83
+      PO10:   
+        id: 84
+      I1:     
+        id: 85
+      O1:     
+        id: 86
+      Oz:     
+        id: 87
+      O2:     
+        id: 88
+      I2:     
+        id: 89
+      Iz:     
+        id: 90
+    10-10-mod:
+      Fp1:    
+        id: 10
+      Fpz:    
+        id: 11
+      Fp2:    
+        id: 12
+      AF7:    
+        id: 13
+      AF3:    
+        id: 14
+      AFz:    
+        id: 15
+      AF4:    
+        id: 16
+      AF8:    
+        id: 17
+      F7:     
+        id: 18
+      F5:     
+        id: 19
+      F3:     
+        id: 20
+      F1:     
+        id: 21
+      Fz:     
+        id: 22
+      F2:     
+        id: 23
+      F4:     
+        id: 24
+      F6:     
+        id: 25
+      F8:     
+        id: 26
+      FT7:    
+        id: 27
+      FC5:    
+        id: 28
+      FC3:    
+        id: 29
+      FC1:    
+        id: 30
+      FCz:    
+        id: 31
+      FC2:    
+        id: 32
+      FC4:    
+        id: 33
+      FC6:    
+        id: 34
+      FT8:    
+        id: 35
+      T7:     
+        id: 36
+      C5:     
+        id: 37
+      C3:     
+        id: 38
+      C1:     
+        id: 39
+      Cz:     
+        id: 40
+      C2:     
+        id: 41
+      C4:     
+        id: 42
+      C6:     
+        id: 43
+      T8:     
+        id: 44
+      TP7:    
+        id: 45
+      CP5:    
+        id: 46
+      CP3:    
+        id: 47
+      CP1:    
+        id: 48
+      CPz:    
+        id: 49
+      CP2:    
+        id: 50
+      CP4:    
+        id: 51
+      CP6:    
+        id: 52
+      TP8:    
+        id: 53
+      P7:     
+        id: 54
+      P5:     
+        id: 55
+      P3:     
+        id: 56
+      P1:     
+        id: 57
+      Pz:     
+        id: 58
+      P2:     
+        id: 59
+      P4:     
+        id: 60
+      P6:     
+        id: 61
+      P8:     
+        id: 62
+      PO7:    
+        id: 63
+      PO3:    
+        id: 64
+      POz:    
+        id: 65
+      PO4:    
+        id: 66
+      PO8:    
+        id: 67
+      O1:     
+        id: 68
+      Oz:     
+        id: 69
+      O2:     
+        id: 70
+      P9:
+        id: 71
+    sphere:
+      B_VCC: 
+        id: 12
+      B_GND: 
+        id: 13
+      D_VCC: 
+        id: 10
+      D_GND: 
+        id: 11
+  real_brain:
+    mesh_file: 'full path of the mesh file on linux'
+    output_dir: 'full path of the output directory on linux'
+    mesh_file_windows: 'full path of the mesh file on windows'
+    output_dir_windows: 'full path of the mesh file on windows'
+    regions:
+      Skin:
+        id: 1
+        conductivity: 1 # Conductivity values in S/m
+      Skull:
+        id: 2
+        conductivity: 1
+      CSF:
+        id: 3
+        conductivity: 1
+      GM:
+        id: 4
+        conductivity: 1
+      WM:
+        id: 5
+        conductivity: 1
+      Cerebellum:
+        id: 6
+        conductivity: 1
+      Ventricles:
+        id: 7
+        conductivity: 1
