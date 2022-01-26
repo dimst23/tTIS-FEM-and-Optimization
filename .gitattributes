@@ -12,7 +12,7 @@
 *.DOCX diff=astextplain
 *.dot  diff=astextplain
 *.DOT  diff=astextplain
-*.pdf  diff=astextplain
+*.pdf filter=lfs diff=lfs merge=lfs -binary
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
@@ -50,7 +50,7 @@
 *.p             binary
 *.mex*          binary
 *.fig           binary
-*.mat filter=lfs diff=lfs merge=lfs -text
+*.mat filter=lfs diff=lfs merge=lfs -binary
 *.mdl           binary
 *.slx           binary
 *.mdlp          binary
@@ -257,5 +257,9 @@ Procfile    text
 *.exe binary
 *.pyc binary
 ## Sim4Life
-*.smash filter=lfs diff=lfs merge=lfs -text
-*.stl filter=lfs diff=lfs merge=lfs -text
+*.smash filter=lfs diff=lfs merge=lfs -binary
+*.stl filter=lfs diff=lfs merge=lfs -binary
+*.vtk filter=lfs diff=lfs merge=lfs -binary
+*.npy filter=lfs diff=lfs merge=lfs -binary
+*.npz filter=lfs diff=lfs merge=lfs -binary
+*.nii filter=lfs diff=lfs merge=lfs -binary
